@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="covid_calculator.IncialPage"
+             BackgroundColor="#13322B">
+    <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="White" Margin="5,1,1,5" Padding="10">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.Column="0" Source="sexo.png" HeightRequest="10" WidthRequest="10"/>
+            <Label Grid.Column="1" Text="Sexo"/>
+        </Grid>
+        <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+            <CheckBox x:Name="cbHombre"/>
+            <Label Text="Hombre" VerticalTextAlignment="Center" Margin="0,0,30,0" />
+            <CheckBox x:Name="cbMujer"/>
+            <Label Text="Mujer" VerticalTextAlignment="Center"/>
+        </StackLayout>
+        <!--sexo hasta aqui-->
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.Column="0" Source="edad.png" HeightRequest="10" WidthRequest="10"/>
+            <Label Grid.Column="1" Text="Edad" VerticalTextAlignment="Center"/>
+        </Grid>
+        
+        <Picker Title="Selecciona tu edad" x:Name="pickerEdad" />
+        <!--Edad hasta aqui-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.Column="0" Source="peso.png" HeightRequest="10" WidthRequest="10"/>
+            <Label Grid.Column="1" Text="Situación peso actual" VerticalTextAlignment="Center"/>
+        </Grid>
+        <StackLayout Orientation="Horizontal" HeightRequest="100" Spacing="30" x:Name="stackPeso" HorizontalOptions="CenterAndExpand">
+            
+        </StackLayout>
+        <!--peso hasta aqui-->
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            
+            <Image Grid.Column="0" Source="estetoscopio.png" HeightRequest="10" WidthRequest="10"/>
+            <Label Grid.Column="1" Text="Padecimientos" VerticalTextAlignment="Center" />
+        </Grid>
+        
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+
+
+            <CheckBox Grid.Column="0" Grid.Row="0" x:Name="hiper"/>
+            <Label Grid.Column="1" Grid.Row="0" Text="Hipertensión" Padding="10,0,0,0" VerticalTextAlignment="Center"/>
+
+            <CheckBox Grid.Column="0" Grid.Row="1" x:Name="diabetes"/>
+            <Label Grid.Column="1" Grid.Row="1" Text="Diabetes" Padding="10,0,0,0" VerticalTextAlignment="Center"/>
+
+            <CheckBox Grid.Column="0" Grid.Row="2" x:Name="pulmon"/>
+            <Label Grid.Column="1" Grid.Row="2" Text="Enfermedad Pulmonar Obstructiva Crónica (EPOC)" Padding="10,0,0,0" VerticalTextAlignment="Center"/>
+
+            <CheckBox Grid.Column="0" Grid.Row="3" x:Name="renal"/>
+            <Label Grid.Column="1" Grid.Row="3" Text="Enfermedad Renal Crónica" Padding="10,0,0,0" VerticalTextAlignment="Center"/>
+
+            <CheckBox Grid.Column="0" Grid.Row="4" x:Name="supresion"/>
+            <Label Grid.Column="1" Grid.Row="4" Text="Inmunosupresión (por ejemplo cáncer, lupus, etc.)" Padding="10,0,0,0" VerticalTextAlignment="Center"/>
+            
+        </Grid>
+        
+        <!--padecimientos hasta aquí-->
+
+        <Label Text="" x:Name="lblPorcentaje" VerticalOptions="EndAndExpand" Padding="0,0,0,20" HorizontalOptions="Center"/>
+
+    </StackLayout>
+</ContentPage>

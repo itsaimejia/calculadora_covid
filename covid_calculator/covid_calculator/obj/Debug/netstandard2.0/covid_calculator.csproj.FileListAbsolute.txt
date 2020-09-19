@@ -1,0 +1,15 @@
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\bin\Debug\netstandard2.0\covid_calculator.deps.json
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\bin\Debug\netstandard2.0\covid_calculator.dll
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\bin\Debug\netstandard2.0\ref\covid_calculator.dll
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\bin\Debug\netstandard2.0\covid_calculator.pdb
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\obj\Debug\netstandard2.0\covid_calculator.csprojAssemblyReference.cache
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\obj\Debug\netstandard2.0\IncialPage.xaml.g.cs
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\obj\Debug\netstandard2.0\covid_calculator.AssemblyInfoInputs.cache
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\obj\Debug\netstandard2.0\covid_calculator.AssemblyInfo.cs
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\obj\Debug\netstandard2.0\covid_calculator.dll
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\obj\Debug\netstandard2.0\ref\covid_calculator.dll
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\obj\Debug\netstandard2.0\covid_calculator.pdb
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\obj\Debug\netstandard2.0\covid_calculator.csproj.CoreCompileInputs.cache
+C:\Users\itsai\source\repos\calculadora_covid\covid_calculator\covid_calculator\obj\Debug\netstandard2.0\XamlC.stamp

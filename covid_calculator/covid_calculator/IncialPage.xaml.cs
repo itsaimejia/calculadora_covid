@@ -157,7 +157,7 @@ namespace covid_calculator
 			if (pulmon.IsChecked)
 			{
 				banderaPulmon = 1;
-				vPulmonar = Math.Log(1.904794);
+				vPulmonar = Math.Log(1.300056);
 			}
 			else
 			{
@@ -166,7 +166,7 @@ namespace covid_calculator
 			if (renal.IsChecked)
 			{
 				banderaRenal = 1;
-				vRenal = Math.Log(1.904794);
+				vRenal = Math.Log(4.538329);
 			}
 			else
 			{
@@ -175,7 +175,7 @@ namespace covid_calculator
 			if (supresion.IsChecked)
 			{
 				banderaSupresion = 1;
-				vSupresion = Math.Log(1.904794);
+				vSupresion = Math.Log(2.10393);
 			}
 			else
 			{
